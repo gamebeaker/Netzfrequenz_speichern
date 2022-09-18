@@ -36,7 +36,7 @@ def get_data_from_url():
 keep_alive()
 os.makedirs(os.path.dirname("./Daten/"), exist_ok=True)
 while True:
-    time.sleep(0.7)
+    time.sleep(0.5)
     write_data(get_data_from_url())
 
 
