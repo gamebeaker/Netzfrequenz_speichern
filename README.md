@@ -3,7 +3,7 @@
 
 ![](./Netzfrequenz_speichern/Netzfrequenz_speichern.drawio.svg)
 
-![](https://github.com/gamebeaker/Netzfrequenz_speichern/blob/master/Netzfrequenz_speichern/Netzfrequenz_speichern.drawio.svg)
+https://github.com/user-attachments/assets/b993eeb0-f1e7-4647-affe-7f63ec9b3469
 
 Dieses Python Script Speichert ungefaer jede Sekunde die Netzfrequenz, bereitgestellt durch https://www.netzfrequenz.info/, in einer csv datei. Dies CSV Datei befindet sich im Ordner Daten und hat einen Namen aus Ziffern 9999.csv. Die Ziffern sind die ersten 4 stellen des Datums als Int. (import time; print(time.time())). Die Dateigroesse betraegt zwischen 22MB und 32MB. Das Script hat eine Wartezeit von 0.5 sekunden nach Websitenanfrage und speichern der Werte um auf ungefaehr einen Wert pro Sekunde zu kommen. Die Datei wird nach jedem Wert gespeichert um Datenverlust bei Serverabsturz zu vermeiden.
 ## CSV format ## 
